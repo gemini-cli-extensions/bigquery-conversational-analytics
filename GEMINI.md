@@ -1,5 +1,5 @@
 
-## Conversational Analytics MCP Server (Data Plane: Connecting and Querying)
+## BigQuery Conversational Analytics MCP Server 
 
 This section covers connecting to a BigQuery instance.
 
@@ -18,5 +18,5 @@ This section covers connecting to a BigQuery instance.
       and recommend the appropriate role. you can provide these links for
       assistance:
         *   Granting Roles: https://cloud.google.com/iam/docs/grant-role-console
-        *   BigQuery Permissions:
-            https://cloud.google.com/iam/docs/roles-permissions/bigquery
+        *   BigQuery Permissions: https://cloud.google.com/iam/docs/roles-permissions/bigquery
+        * Gemini for Google Cloud API Permissions: https://cloud.google.com/iam/docs/roles-permissions/cloudaicompanion

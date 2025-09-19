@@ -21,6 +21,7 @@ Before you begin, ensure you have the following:
         metadata)
     *   BigQuery Metadata Viewer (`roles/bigquery.metadataViewer`) (for viewing all datasets)
     *   BigQuery Data Editor (`roles/bigquery.dataEditor`) (for creating or modify datasets and tables)
+    *   Gemini for Google Cloud (`roles/cloudaicompanion.user`) (to use the conversational analytics API)
 
 ## Installation
 
