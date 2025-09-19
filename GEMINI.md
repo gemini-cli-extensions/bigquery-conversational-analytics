@@ -12,11 +12,12 @@ This section covers connecting to a BigQuery instance.
 3.  **Handle Permission Errors**:
     * For operations that execute queries and view metadata, the user needs the
       **BigQuery User** (`roles/bigquery.user`) and **BigQuery Metadata Viewer** (`roles/bigquery.metadataViewer`) role.
-    * For operations that create, or modify datasets and tables, the user neds
+    * For operations that create, or modify datasets and tables, the user needs
       the **BigQuery Data Editor** (`roles/bigquery.dataEditor`) role.
+   *  For operations that perform data analysis or get insights, the user needs **Gemini for Google Cloud** (`roles/cloudaicompanion.user`) role.
     * If an operation fails due to permissions, identify the type of operation
       and recommend the appropriate role. you can provide these links for
       assistance:
         *   Granting Roles: https://cloud.google.com/iam/docs/grant-role-console
         *   BigQuery Permissions: https://cloud.google.com/iam/docs/roles-permissions/bigquery
-        * Gemini for Google Cloud API Permissions: https://cloud.google.com/iam/docs/roles-permissions/cloudaicompanion
+        *   Gemini for Google Cloud API Permissions: https://cloud.google.com/iam/docs/roles-permissions/cloudaicompanion
