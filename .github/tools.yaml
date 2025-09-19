@@ -1,0 +1,49 @@
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+sources:
+  bigquery-source:
+    kind: "bigquery"
+    project: ${BIGQUERY_PROJECT}
+    location: ${BIGQUERY_LOCATION:}
+    useClientOAuth: ${BIGQUERY_USE_CLIENT_OAUTH:false}
+
+tools:
+  ask_data_insights:
+    kind: bigquery-conversational-analytics
+    source: bigquery-source
+    description: |
+      Use this tool to perform data analysis, get insights,
+      or answer complex questions about the contents of specific
+      BigQuery tables.
+
+  get_dataset_info:
+    kind: bigquery-get-dataset-info
+    source: bigquery-source
+    description: Use this tool to get dataset metadata.
+
+  get_table_info:
+    kind: bigquery-get-table-info
+    source: bigquery-source
+    description: Use this tool to get table metadata.
+
+  list_dataset_ids:
+    kind: bigquery-list-dataset-ids
+    source: bigquery-source
+    description: Use this tool to list datasets.
+
+  list_table_ids:
+    kind: bigquery-list-table-ids
+    source: bigquery-source
+    description: Use this tool to list tables.
