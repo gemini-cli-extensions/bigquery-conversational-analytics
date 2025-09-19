@@ -17,7 +17,6 @@ Before you begin, ensure you have the following:
 *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 *   A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.
 *   IAM Permissions:
-    *   Gemini for Google Cloud User (`roles/cloudaicompanion.user`) (required to create conversations that are managed by Google Cloud.)
     *   BigQuery User (`roles/bigquery.user`) (for executing queries and view
         metadata)
     *   BigQuery Metadata Viewer (`roles/bigquery.metadataViewer`) (for viewing all datasets)
