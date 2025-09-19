@@ -1,10 +1,10 @@
-# Gemini CLI Extension - Conversational Analytics
+# Gemini CLI Extension - BigQuery Conversational Analytics
 
 Developers can effortlessly connect, interact, and generate data insights with [BigQuery](https://cloud.google.com/bigquery/docs) datasets and data using natural language commands.
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
 
-## Why Use the Conversational Analytics Extension?
+## Why Use the BigQuery Conversational Analytics Extension?
 
 *   **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
 *   **Seamless Workflow:** Stay in your CLI. No need to constantly switch contexts to the GCP console for common database tasks.
@@ -27,7 +27,7 @@ Before you begin, ensure you have the following:
 To install the extension, use the command:
 
 ```bash
-gemini extensions install github.com/gemini-cli-extensions/bigquery-data-analytics
+gemini extensions install github.com/gemini-cli-extensions/bigquery-conversational-analytics
 ```
 
 ## Configuration

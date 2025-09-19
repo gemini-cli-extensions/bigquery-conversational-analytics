@@ -1,5 +1,5 @@
 {
-  "name": "conversational-analytics",
+  "name": "bigquery-conversational-analytics",
   "version": "0.0.0",
   "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
   "mcpServers": {
@@ -15,6 +15,5 @@
       }
     }
   },
-  "contextFileName": "GEMINI.md",
-  "excludeTools": ["ask_data_insights"]
+  "contextFileName": "GEMINI.md"
 }

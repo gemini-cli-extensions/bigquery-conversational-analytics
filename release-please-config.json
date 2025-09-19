@@ -10,7 +10,7 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "conversational-analytics",
+      "package-name": "bigquery-conversational-analytics",
       "extra-files": [
         {
           "type": "json",
