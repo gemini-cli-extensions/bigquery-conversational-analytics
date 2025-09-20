@@ -3,16 +3,13 @@
   "version": "0.0.0",
   "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
   "mcpServers": {
-    "Conversational Analytics": {
+    "BigQuery Conversational Analytics": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--tools-file",
         "${extensionPath}${/}tools.yaml",
         "--stdio"
-      ],
-      "env": {
-        "BIGQUERY_PROJECT": "${BIGQUERY_PROJECT}"
-      }
+      ]
     }
   },
   "contextFileName": "BIGQUERY_CONVERSATIONAL_ANALYTICS.md"
