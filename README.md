@@ -7,24 +7,21 @@ Developers can effortlessly connect, interact, and generate data insights with [
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
 
-## Why Use the BigQuery Conversational Analytics Extension?
+## **Why Use the BigQuery Conversational Analytics Extension?**
 
-*   **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
-*   **Seamless Workflow:** Stay in your CLI. No need to constantly switch contexts to the GCP console for common database tasks.
-*   **Code Generation:** Accelerate development by asking Gemini to generate data classes and other code snippets based on your table schemas.
+* **Natural Language to insights :** Ask a variety of questions from your BigQuery data and generate intelligent insights.   
+* **Seamless Workflow:** Stay in your CLI. No need to constantly switch contexts to the GCP console for generating analytics insights. .  
+* **Leverage prebuilt agent :** Access to advanced insights offered by a built-in agent behind  [Conversational Analytics API](https://cloud.google.com/gemini/docs/conversational-analytics-api/overview)
 
-## Prerequisites
+## **Prerequisites**
 
 Before you begin, ensure you have the following:
 
-*   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version +v0.6.0.
-*   A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.
-*   IAM Permissions:
-    *   BigQuery User (`roles/bigquery.user`) (for executing queries and view
-        metadata)
-    *   BigQuery Metadata Viewer (`roles/bigquery.metadataViewer`) (for viewing all datasets)
-    *   BigQuery Data Editor (`roles/bigquery.dataEditor`) (for creating or modify datasets and tables)
-    *   Gemini for Google Cloud (`roles/cloudaicompanion.user`) (to use the conversational analytics API)
+* [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version +v0.6.0.
+* A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.  
+* IAM Roles:  
+     * BigQuery User (`roles/bigquery.user`) (for executing queries and view metadata)  
+     * Gemini for Google Cloud (`roles/cloudaicompanion.user`) (to use the conversational analytics API)
 
 ## Installation
 
@@ -36,33 +33,28 @@ gemini extensions install github.com/gemini-cli-extensions/bigquery-conversation
 
 ## Configuration
 
+Set the following environment variables before starting the Gemini CLI:
+
 *   `BIGQUERY_PROJECT`: The GCP project ID.
 *   `BIGQUERY_LOCATION`: (Optional) The dataset location.
 *   `BIGQUERY_USE_CLIENT_OAUTH`: (Optional) Set to `true` to use client-side OAuth for authorization.
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 
-## Usage Examples
+## **Usage Examples**
 
 Interact with BigQuery using natural language right from your IDE:
 
-*   **Explore Schemas and Data:**
-    * "Show me all tables in the 'orders' dataset."
-    * "What is the schema for the 'products' table?"
-    * "How many orders were placed in the last 30 days, and what were the top 5 most purchased items?"
+* **Ask for insights** 
 
-*   **Generate Code:**
-    * "Generate a Python dataclass to represent the 'customers' table."
+  * Using the tables under bigquery-public-data.google\_analytics\_sample , tell me the channels I should focus on and why?
 
-## Supported Tools
+## **Supported Tools**
 
 This extension provides a comprehensive set of tools:
 
-* `ask_data_insights`: Executes a SQL query.
-* `get_dataset_info`: Get dataset metadata.
-* `get_table_info`: Get table metadata.
-* `list_dataset_ids`: Lists dataset ids in the database.
-* `list_table_ids`: Lists table ids in the database.
+* `ask_data_insights`: Executes a SQL query.  
+* `search_catalog`: Find BigQuery tables relevant to users, natural language query.
 
 ## Additional Extensions
 
