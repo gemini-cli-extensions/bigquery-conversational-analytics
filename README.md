@@ -1,7 +1,7 @@
 # Gemini CLI Extension - BigQuery Conversational Analytics
 
 > [!NOTE]
-> This extension is currently in beta, and may see breaking changes until the first stable release (v1.0).
+> This extension is currently in beta (pre-v1.0), and may see breaking changes until the first stable release (v1.0).
 
 Developers can effortlessly connect, interact, and generate data insights with [BigQuery](https://cloud.google.com/bigquery/docs) datasets and data using natural language commands.
 
@@ -9,8 +9,8 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 
 ## **Why Use the BigQuery Conversational Analytics Extension?**
 
-* **Natural Language to insights :** Ask a variety of questions from your BigQuery data and generate intelligent insights.   
-* **Seamless Workflow:** Stay in your CLI. No need to constantly switch contexts to the GCP console for generating analytics insights. .  
+* **Natural Language to insights :** Ask a variety of questions from your BigQuery data and generate intelligent insights.
+* **Seamless Workflow:** Stay in your CLI. No need to constantly switch contexts to the GCP console for generating analytics insights. .
 * **Leverage prebuilt agent :** Access to advanced insights offered by a built-in agent behind  [Conversational Analytics API](https://cloud.google.com/gemini/docs/conversational-analytics-api/overview)
 
 ## **Prerequisites**
@@ -18,9 +18,9 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 Before you begin, ensure you have the following:
 
 * [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version +v0.6.0.
-* A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.  
-* IAM Roles:  
-     * BigQuery User (`roles/bigquery.user`) (for executing queries and view metadata)  
+* A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.
+* IAM Roles:
+     * BigQuery User (`roles/bigquery.user`) (for executing queries and view metadata)
      * Gemini for Google Cloud (`roles/cloudaicompanion.user`) (to use the conversational analytics API)
 
 ## Installation
@@ -45,7 +45,7 @@ Ensure [Application Default Credentials](https://cloud.google.com/docs/authentic
 
 Interact with BigQuery using natural language right from your IDE:
 
-* **Ask for insights** 
+* **Ask for insights**
 
   * Using the tables under bigquery-public-data.google\_analytics\_sample , tell me the channels I should focus on and why?
 
@@ -53,7 +53,7 @@ Interact with BigQuery using natural language right from your IDE:
 
 This extension provides a comprehensive set of tools:
 
-* `ask_data_insights`: Executes a SQL query.  
+* `ask_data_insights`: Executes a SQL query.
 * `search_catalog`: Find BigQuery tables relevant to users, natural language query.
 
 ## Additional Extensions
