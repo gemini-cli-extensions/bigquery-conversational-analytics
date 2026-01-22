@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.3...0.1.4) (2026-01-22)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.25.0 ([#69](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/69)) ([bc0ac06](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/bc0ac06dd17f1bb81f47fa116ec31b67677322e6))
+
 ## [0.1.3](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.2...0.1.3) (2025-12-30)
 
 
