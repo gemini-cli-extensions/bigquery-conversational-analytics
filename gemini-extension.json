@@ -1,6 +1,6 @@
 {
   "name": "bigquery-conversational-analytics",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
   "mcpServers": {
     "bigquery_conversational_analytics": {
@@ -12,5 +12,17 @@
       ]
     }
   },
-  "contextFileName": "BIGQUERY_CONVERSATIONAL_ANALYTICS.md"
+  "contextFileName": "BIGQUERY_CONVERSATIONAL_ANALYTICS.md",
+  "settings": [
+    {
+      "name": "Project ID",
+      "description": "ID of the Google Cloud project",
+      "envVar": "BIGQUERY_PROJECT"
+    },
+    {
+      "name": "Location",
+      "description": "(Optional) Location of the BigQuery resources",
+      "envVar": "BIGQUERY_LOCATION"
+    }
+  ]
 }
