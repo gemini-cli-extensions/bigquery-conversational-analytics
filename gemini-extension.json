@@ -23,6 +23,16 @@
       "name": "Location",
       "description": "(Optional) Location of the BigQuery resources",
       "envVar": "BIGQUERY_LOCATION"
+    },
+    {
+      "name": "Authorization Scopes",
+      "description": "(Optional) Authorization scopes for Google APIs (Dataplex, Conversational API, BigQuery), comma-separated",
+      "envVar": "BIGQUERY_SCOPES"
+    },
+    {
+      "name": "Maximum Query Result Rows",
+      "description": "(Optional) Maximum number of rows to return from BigQuery query results",
+      "envVar": "BIGQUERY_MAX_QUERY_RESULT_ROWS"
     }
   ]
 }
