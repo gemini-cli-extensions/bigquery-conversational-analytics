@@ -48,6 +48,8 @@ Set the following environment variables before starting the Gemini CLI. These va
 ```bash
 export BIGQUERY_PROJECT="<your-gcp-project-id>"
 export BIGQUERY_LOCATION="<your-dataset-location>"  # Optional
+export BIGQUERY_SCOPES="https://www.googleapis.com/auth/bigquery,https://www.googleapis.com/auth/drive"  # Optional
+export BIGQUERY_MAX_QUERY_RESULT_ROWS=50  # Optional
 ```
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
