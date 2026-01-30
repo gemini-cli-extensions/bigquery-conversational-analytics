@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.6](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.5...0.1.6) (2026-01-30)
+
+
+### Features
+
+* Support custom scopes and maxQueryResultRows ([#77](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/77)) ([c38438e](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/c38438e8d4296d98ab2fa52e3b61cfe518fec3a4))
+
+## [0.1.5](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.4...0.1.5) (2026-01-28)
+
+
+### Features
+
+* add Configuration settings ([#72](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/72)) ([27a9100](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/27a9100b91b45d2dc49b48b29b7565551de21d80))
+* **deps:** update dependency googleapis/genai-toolbox to v0.26.0 ([#74](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/74)) ([124a489](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/124a4898581b220e2e0dd9772484a7808d161c84))
+
+## [0.1.4](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.3...0.1.4) (2026-01-22)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.25.0 ([#69](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/69)) ([bc0ac06](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/bc0ac06dd17f1bb81f47fa116ec31b67677322e6))
+
 ## [0.1.3](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.2...0.1.3) (2025-12-30)
 
 

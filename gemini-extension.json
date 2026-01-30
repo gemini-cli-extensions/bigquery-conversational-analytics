@@ -1,6 +1,6 @@
 {
   "name": "bigquery-conversational-analytics",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
   "mcpServers": {
     "bigquery_conversational_analytics": {
@@ -12,5 +12,27 @@
       ]
     }
   },
-  "contextFileName": "BIGQUERY_CONVERSATIONAL_ANALYTICS.md"
+  "contextFileName": "BIGQUERY_CONVERSATIONAL_ANALYTICS.md",
+  "settings": [
+    {
+      "name": "Project ID",
+      "description": "ID of the Google Cloud project",
+      "envVar": "BIGQUERY_PROJECT"
+    },
+    {
+      "name": "Location",
+      "description": "(Optional) Location of the BigQuery resources",
+      "envVar": "BIGQUERY_LOCATION"
+    },
+    {
+      "name": "Authorization Scopes",
+      "description": "(Optional) Authorization scopes for Google APIs (Dataplex, Conversational API, BigQuery), comma-separated",
+      "envVar": "BIGQUERY_SCOPES"
+    },
+    {
+      "name": "Maximum Query Result Rows",
+      "description": "(Optional) Maximum number of rows to return from BigQuery query results",
+      "envVar": "BIGQUERY_MAX_QUERY_RESULT_ROWS"
+    }
+  ]
 }
