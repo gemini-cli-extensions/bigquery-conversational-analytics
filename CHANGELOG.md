@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.5...0.1.6) (2026-01-30)
+
+
+### Features
+
+* Support custom scopes and maxQueryResultRows ([#77](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/77)) ([c38438e](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/c38438e8d4296d98ab2fa52e3b61cfe518fec3a4))
+
 ## [0.1.5](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.4...0.1.5) (2026-01-28)
 
 
