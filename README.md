@@ -25,6 +25,7 @@ Before you begin, ensure you have the following:
 
 * [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version **+v0.6.0**.
 * Setup Gemini CLI [Authentication](https://github.com/google-gemini/gemini-cli/tree/main?tab=readme-ov-file#-authentication-options).
+* [Node.js](https://nodejs.org/) (the MCP server runs via `npx`).
 * A Google Cloud project with the **Data Analytics API with Gemini**, **Gemini for Google Cloud API** and **BigQuery API** enabled.
 * Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 * IAM Roles:
