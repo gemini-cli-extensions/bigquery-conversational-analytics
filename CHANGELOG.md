@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.6...0.1.7) (2026-08-20)
+
+
+### Features
+
+* **deps:** update dependency @toolbox-sdk/server to v1.9.0 ([#100](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/issues/100)) ([03fa0a6](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/03fa0a6c0c6d3a61061c9b485f953c1e39556f51))
+
 ## [0.1.6](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.5...0.1.6) (2026-01-30)
 
 
