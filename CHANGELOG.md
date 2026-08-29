@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.8](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.7...0.1.8) (2026-08-29)
+
+
+### Features
+
+* **falkordb:** Add FalkorDB source and tools ([mcp-toolbox#​3692](https://redirect.github.com/googleapis/mcp-toolbox/issues/3692)) ([a94702c](https://redirect.github.com/googleapis/mcp-toolbox/commit/a94702c13121736e0ceb05425af43a0b953ac5b5)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **mcp:** Add Secure Parameters support as Toolbox experimental extension ([mcp-toolbox#​3394](https://redirect.github.com/googleapis/mcp-toolbox/issues/3394)) ([9750d2d](https://redirect.github.com/googleapis/mcp-toolbox/commit/9750d2da4b1dc08761ab2b5510454e1a386ebce8)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **server/mcp:** Support com.google.cloud/toolbox.v1 extension in v20260728 ([mcp-toolbox#​3801](https://redirect.github.com/googleapis/mcp-toolbox/issues/3801)) ([f4f7da6](https://redirect.github.com/googleapis/mcp-toolbox/commit/f4f7da605245ff9e8d491d0c55591ba3b400623b)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **skill:** Add fix-failing-tests skill for mcp-toolbox ([mcp-toolbox#​3821](https://redirect.github.com/googleapis/mcp-toolbox/issues/3821)) ([168e69c](https://redirect.github.com/googleapis/mcp-toolbox/commit/168e69c048d65aa15b926f9dd7680245949cc57a)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **sources:** Support native read-only mode and dynamic tool annotations ([mcp-toolbox#​3872](https://redirect.github.com/googleapis/mcp-toolbox/issues/3872)) ([c257022](https://redirect.github.com/googleapis/mcp-toolbox/commit/c257022fed2cc5e9a286bf9fd78e91d76f9ff3b8)), refs [mcp-toolbox#​3615](https://redirect.github.com/googleapis/mcp-toolbox/issues/3615) [mcp-toolbox#​3816](https://redirect.github.com/googleapis/mcp-toolbox/issues/3816) [mcp-toolbox#​3618](https://redirect.github.com/googleapis/mcp-toolbox/issues/3618) [mcp-toolbox#​3851](https://redirect.github.com/googleapis/mcp-toolbox/issues/3851) [mcp-toolbox#​3619](https://redirect.github.com/googleapis/mcp-toolbox/issues/3619) [mcp-toolbox#​3617](https://redirect.github.com/googleapis/mcp-toolbox/issues/3617) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+
+
+### Bug Fixes
+
+* **cloud-storage:** Resolve symlinks when enforcing local path boundaries ([mcp-toolbox#​3810](https://redirect.github.com/googleapis/mcp-toolbox/issues/3810)) ([c2ada64](https://redirect.github.com/googleapis/mcp-toolbox/commit/c2ada6421f718cb861c7ccd5f0e8cd7e841a407f)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **config:** Compare env var offsets in rune space when skipping comments ([mcp-toolbox#​3856](https://redirect.github.com/googleapis/mcp-toolbox/issues/3856)) ([2e76934](https://redirect.github.com/googleapis/mcp-toolbox/commit/2e769343332cf84084a162e23f556490faa20d32)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* **postgres:** Filter background processes in postgres-list-active-queries ([mcp-toolbox#​3885](https://redirect.github.com/googleapis/mcp-toolbox/issues/3885)) ([3d9e62a](https://redirect.github.com/googleapis/mcp-toolbox/commit/3d9e62a979be951bb04aeaf31aa4505598031f4a)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* Merge prebuilt tools when reloading custom config ([mcp-toolbox#​3864](https://redirect.github.com/googleapis/mcp-toolbox/issues/3864)) ([5a6d865](https://redirect.github.com/googleapis/mcp-toolbox/commit/5a6d865eff939ace8c803d3ce8831aa83d00a750)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+* Normalize postgres UUIDs to strings ([mcp-toolbox#​3806](https://redirect.github.com/googleapis/mcp-toolbox/issues/3806)) ([3b02f1d](https://redirect.github.com/googleapis/mcp-toolbox/commit/3b02f1d86ab774c1e0fb13d0de7b6b428da78b83)) ([00b233a](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/00b233a212ca827e4de17d8cac046aff5cbee70f))
+
 ## [0.1.7](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.6...0.1.7) (2026-08-20)
 
 
