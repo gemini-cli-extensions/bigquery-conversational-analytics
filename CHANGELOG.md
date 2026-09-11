@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.9](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.8...0.1.9) (2026-09-11)
+
+
+### Features
+
+* **alloydb:** Provide actionable error when read-only mode is used on pre-PG17 ([mcp-toolbox#​3902](https://redirect.github.com/googleapis/mcp-toolbox/issues/3902)) ([28ace11](https://redirect.github.com/googleapis/mcp-toolbox/commit/28ace115cfb02358ea2a3031fb5d26c71e9d583e)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **MCP Apps:** Add support for MCP Apps ([mcp-toolbox#​4008](https://redirect.github.com/googleapis/mcp-toolbox/issues/4008)) ([9cf3e95](https://redirect.github.com/googleapis/mcp-toolbox/commit/9cf3e95ed6ad74b4821b29b4413fe99281bb2206)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **mcp:** Serve groups/list and groups/get as a Toolbox extension ([mcp-toolbox#​3914](https://redirect.github.com/googleapis/mcp-toolbox/issues/3914)) ([eaf2a9c](https://redirect.github.com/googleapis/mcp-toolbox/commit/eaf2a9c7e188ccd4af7b67b71b100020fd939df8)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **MCPResources:** Add support for MCP Resources ([mcp-toolbox#​3968](https://redirect.github.com/googleapis/mcp-toolbox/issues/3968)) ([fb227b0](https://redirect.github.com/googleapis/mcp-toolbox/commit/fb227b007245ed17bf0dcabcadfdf99ad24ee651)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **source/bigquery:** Attach SQLCommenter attributes as BigQuery job labels ([mcp-toolbox#​3843](https://redirect.github.com/googleapis/mcp-toolbox/issues/3843)) ([bf0f1a5](https://redirect.github.com/googleapis/mcp-toolbox/commit/bf0f1a5302b3b3c70a87a7e2d8fa6a671fd950bd)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **sources:** Add ConnectOnce, a helper for connecting on first use ([mcp-toolbox#​3905](https://redirect.github.com/googleapis/mcp-toolbox/issues/3905)) ([16c31fa](https://redirect.github.com/googleapis/mcp-toolbox/commit/16c31faf23f360bc900c49bc75847163ecf60e79)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* Add Toolbox version check on startup ([mcp-toolbox#​3837](https://redirect.github.com/googleapis/mcp-toolbox/issues/3837)) ([7d36de3](https://redirect.github.com/googleapis/mcp-toolbox/commit/7d36de337b3557d8354d295ee8eec23c69baf88f)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+
+
+### Bug Fixes
+
+* **docs/cloudgda:** Document context fields, fix PSV example and links ([mcp-toolbox#​3919](https://redirect.github.com/googleapis/mcp-toolbox/issues/3919)) ([ae47535](https://redirect.github.com/googleapis/mcp-toolbox/commit/ae47535434cb3052ca4645400c823d1d8735a06e)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **looker:** Update want clause ([mcp-toolbox#​3962](https://redirect.github.com/googleapis/mcp-toolbox/issues/3962)) ([9593321](https://redirect.github.com/googleapis/mcp-toolbox/commit/95933217332e0bc38992d9c2a75abb7f50869cd7)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **sources:** Release the handle when a source fails to connect ([mcp-toolbox#​3921](https://redirect.github.com/googleapis/mcp-toolbox/issues/3921)) ([0001190](https://redirect.github.com/googleapis/mcp-toolbox/commit/0001190a73a9742b1787f237be352030dbfbea5b)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+* **test/alloydbainl:** Use explicit SQL alias prompt in integration test ([mcp-toolbox#​3916](https://redirect.github.com/googleapis/mcp-toolbox/issues/3916)) ([596eaf9](https://redirect.github.com/googleapis/mcp-toolbox/commit/596eaf92d0059883090e59c3aca7163ed213ae95)) ([501369d](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/501369d7da2f6cc88f157d9b7931a5755b2a1dfd))
+
 ## [0.1.8](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.7...0.1.8) (2026-08-29)
 
 
