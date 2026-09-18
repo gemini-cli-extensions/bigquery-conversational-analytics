@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.10](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.9...0.1.10) (2026-09-18)
+
+
+### Features
+
+* Added logic to serve /.well-known/openai-apps-challenge ([mcp-toolbox#​4038](https://redirect.github.com/googleapis/mcp-toolbox/issues/4038)) ([7ac00a2](https://redirect.github.com/googleapis/mcp-toolbox/commit/7ac00a2dc940b0e6e07e2b75ca79fef08bd87d77)) ([429804e](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/429804e09e8704f2d436b48b79883c12a72202b0))
+
+
+### Bug Fixes
+
+* **prebuilt/cloud-sql-postgres:** Clarify execute\_sql tool description ([mcp-toolbox#​3884](https://redirect.github.com/googleapis/mcp-toolbox/issues/3884)) ([ed4cfde](https://redirect.github.com/googleapis/mcp-toolbox/commit/ed4cfde6d6d5133120a9ed6811aab8947f3eb540)) ([429804e](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/429804e09e8704f2d436b48b79883c12a72202b0))
+
 ## [0.1.9](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.8...0.1.9) (2026-09-11)
 
 
