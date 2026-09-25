@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.11](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.10...0.1.11) (2026-09-25)
+
+
+### Features
+
+* **prebuiltconfig/bigtable:** Add prebuilt config for bigtable ([mcp-toolbox#​4068](https://redirect.github.com/googleapis/mcp-toolbox/issues/4068)) ([576b9f7](https://redirect.github.com/googleapis/mcp-toolbox/commit/576b9f74f93a7564dcaaf6d6c06d799b8de3fb1d)) ([ddf25d1](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/ddf25d1158ff1bb20aa4e45b02187a20cde03608))
+* Support `--defer-source-connect` feature ([mcp-toolbox#​4076](https://redirect.github.com/googleapis/mcp-toolbox/issues/4076)) ([5700630](https://redirect.github.com/googleapis/mcp-toolbox/commit/5700630c132d5e2fc2d38cf3e9ce1f9898bd757d)) ([ddf25d1](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/ddf25d1158ff1bb20aa4e45b02187a20cde03608))
+
+
+### Bug Fixes
+
+* **config:** Fix parseEnv inconsistent handling with YAML comments ([mcp-toolbox#​4039](https://redirect.github.com/googleapis/mcp-toolbox/issues/4039)) ([558c5a9](https://redirect.github.com/googleapis/mcp-toolbox/commit/558c5a9d0fc51555321291584fe1a91f60ba75f2)) ([ddf25d1](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/ddf25d1158ff1bb20aa4e45b02187a20cde03608))
+
 ## [0.1.10](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.9...0.1.10) (2026-09-18)
 
 
