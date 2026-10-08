@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.13](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.12...0.1.13) (2026-10-08)
+
+
+### Features
+
+* **bigquery:** Support authorized views with dataset restrictions ([mcp-toolbox#​2561](https://redirect.github.com/googleapis/mcp-toolbox/issues/2561)) ([441d4e7](https://redirect.github.com/googleapis/mcp-toolbox/commit/441d4e796ae4a7cae7673cb822481e9c63da920c)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+* **looker:** Include LookML dashboards in get_dashboards tool ([mcp-toolbox#​4216](https://redirect.github.com/googleapis/mcp-toolbox/issues/4216)) ([2fea1b5](https://redirect.github.com/googleapis/mcp-toolbox/commit/2fea1b5430995d882e81819784ace566fd8d15d2)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+
+
+### Bug Fixes
+
+* **datalineage:** Increase timeouts ([69aa2f2](https://redirect.github.com/googleapis/mcp-toolbox/commit/69aa2f259a5ba92d20086e89d4e77e5d1630e1be)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+* **looker:** Update legacy feature test expectation ([e9c2f42](https://redirect.github.com/googleapis/mcp-toolbox/commit/e9c2f42a397d59230009f180e45cfab24ef72887)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+* **resources:** Normalize resource-template URI scheme to lowercase ([mcp-toolbox#​4023](https://redirect.github.com/googleapis/mcp-toolbox/issues/4023)) ([2311dc1](https://redirect.github.com/googleapis/mcp-toolbox/commit/2311dc19f36ecc18587186629addae1515da3f93)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+* **test/alloydbainl:** Match query value instead of model-chosen alias ([mcp-toolbox#​4125](https://redirect.github.com/googleapis/mcp-toolbox/issues/4125)) ([1b20eae](https://redirect.github.com/googleapis/mcp-toolbox/commit/1b20eaefcc452df0213c7aff1be54ca705de0d39)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+* **tool/bigquery:** Check lexically referenced datasets before dry run ([mcp-toolbox#​4164](https://redirect.github.com/googleapis/mcp-toolbox/issues/4164)) ([912189f](https://redirect.github.com/googleapis/mcp-toolbox/commit/912189f6c842fdf8fc6ceb7d7a556cf9fa05286b)) ([b4d9409](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/commit/b4d9409e04c5132386edd93241dcab3a651a23a4))
+
 ## [0.1.12](https://github.com/gemini-cli-extensions/bigquery-conversational-analytics/compare/0.1.11...0.1.12) (2026-09-26)
 
 

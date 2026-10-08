@@ -1,6 +1,6 @@
 {
   "name": "bigquery-conversational-analytics",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
   "mcpServers": {
     "bigquery_conversational_analytics": {
